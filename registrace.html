@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .register-form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        .register-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .register-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .register-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .register-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="register-form">
+        <h2>Registrace</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Uživatelské jméno" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Heslo" required>
+            <input type="password" name="password2" placeholder="Potvrď heslo" required>
+            <button type="submit">Registrovat</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
